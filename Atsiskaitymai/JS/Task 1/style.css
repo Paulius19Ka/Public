@@ -61,7 +61,12 @@ form {
   > div{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 3px;
+    max-width: 80%;
+    width: 300px;
+    height: 150px;
 
     background-color: #ffd051;
     border-radius: 5px;
@@ -92,6 +97,8 @@ form {
   }
   #output{
     > div{
+      width: 400px;
+      height: 200px;
       > h3{
         font-size: 1.6em;
       }
