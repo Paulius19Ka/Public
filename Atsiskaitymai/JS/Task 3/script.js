@@ -31,7 +31,6 @@ document.querySelector('#btn')
 
             const img = document.createElement('img');
             img.setAttribute('src', `${e.avatar_url}`);
-            // img.setAttribute('width', '50px');
 
             userCard.append(login, img);
 
